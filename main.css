@@ -1,0 +1,82 @@
+/*
+Author: Gabriel Henderson
+Date: 3 December 2020
+Purpose: Some CSS for resume generator page */
+
+body{
+    background: linear-gradient(180deg, rgba(177, 133, 92, 1) 0%, rgb(189, 173, 159) 100%);
+    font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    padding: 0;
+    top: 0;
+}
+
+#banner{
+    border: solid;
+    background: rgb(161, 112, 65);
+    padding-top: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size:36px;
+}
+
+#section{
+    font-size: 28px;
+}
+
+hr{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+form{
+    border: solid;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: rgb(177, 133, 92);
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+label{
+    font-size: 24px;
+    font-weight: normal; 
+}
+
+input{
+    width: 15rem;
+    padding: 8px 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea{
+    width: 16.2rem;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submitResume{
+    border-radius: 5px;
+    background: rgb(218, 182, 149);
+    font-weight: bold;
+    margin-top: 2rem;
+}

@@ -1,0 +1,149 @@
+<!--
+    Author: Gabriel Henderson
+    Date: 3 December 2020
+    Purpose: Generate a resume
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WEB-115 Final Project</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="banner">
+
+            <h1 style="margin: 0">Gabriel Henderson</h1>
+            <h2 style="margin: 5" id="section">WEB-115 Section 5172<br>
+            Build Your Resume</h2>
+    </div>
+    <form id="form" onsubmit="main();return false">
+        <!-- Personal Information -->
+        <h2>Personal Information</h2>
+        <label for="name">Full name</label><br>
+        <input type="text" name="name" id="name"><br><br>
+
+        <label for="state">State of residence</label><br>
+        <input type="text" name="state" id="state"><br><br>
+
+        <label for="city">City of residence</label> <br>
+        <input type="text" name="city" id="city"><br><br>
+
+        <label for="phone">Phone number</label> <br>
+        <input type="text" name="phone" id="phone" placeholder="123-456-7890"><br><br>
+
+        <label for="email">E-mail</label> <br>
+        <input type="text" name="email" id="email" placeholder="me@example.com"><br><br>
+
+        <label for="twitter">Twitter handle</label> <br>
+        <input type="text" name="twitter" id="twitter" placeholder="@twitterhandle"><br><br>
+
+        <label for="linkedin">LinkedIn URL</label> <br>
+        <input type="text" name="linkedin" id="linkedin"><br><br>
+
+        <label for="portfolio">Portfolio URL</label> <br>
+        <input type="text" name="portfolio" id="portfolio"><br><br>
+
+
+        <!-- Skill sets -->
+        <h2>Skills</h2>
+        <p style="font-size: 18px;">Writing, communicating, etc</p><br>
+        <label for="skill1">Skill 1</label> <br>
+        <input type="text" name="skill1" id="skill1"><br><br>
+
+        <label for="skill2">Skill 2</label> <br>
+        <input type="text" name="skill2" id="skill2"><br><br>
+
+        <label for="skill3">Skill 3</label> <br>
+        <input type="text" name="skill3" id="skill3"><br><br>
+
+
+        <h2>Technical skills</h2>
+        <p style="font-size: 18px;">JavaScript, PHP, etc</p><br>
+        <label for="techskill1">Skill 1</label> <br>
+        <input type="text" name="techskill1" id="techskill1"><br><br>
+
+        <label for="techskill2">Skill 2</label> <br>
+        <input type="text" name="techskill2" id="techskill2"><br><br>
+
+        <label for="techskill3">Skill 3</label> <br>
+        <input type="text" name="techskill3" id="techskill3"><br><br>
+
+        <!-- Education -->
+        <h2>Education</h2>
+        <label for="school">School attended</label><br>
+        <input type="text" name="school" id="school"><br><br>
+
+        <label for="schooldetails">Education details</label><br>
+        <textarea name="schooldetails" id="schooldetails" cols="30" rows="5" placeholder="(Major, GPA, etc)"></textarea>
+
+
+        <!-- Previous jobs -->
+        <!-- First job details -->
+        <h2>Previous Job Experience</h2>
+        <label for="jobstartdate1">First job start date</label> <br>
+        <input type="date" name="jobstartdate1" id="jobstartdate1"><br><br>
+
+        <label for="jobenddate1">First job end date</label> <br>
+        <input type="date" name="jobenddate1" id="jobenddate1"><br><br>
+
+        <label for="jobcompany1">Company</label> <br>
+        <input type="text" name="jobcompany1" id="jobcompany1"><br><br>
+
+        <label for="jobtitle1">Job title</label> <br>
+        <input type="jobtitle1" id="jobtitle1"><br><br>
+
+        <label for="jobdetails1">Job details</label> <br>
+        <textarea name="jobdetails1" id="jobdetails1" cols="30" rows="5"></textarea><br><br>
+
+        <!-- Second job details -->
+        <label for="jobstartdate2">Second job start date</label> <br>
+        <input type="date" name="jobstartdate2" id="jobstartdate2"><br><br>
+
+        <label for="jobenddate2">Second job end date</label> <br>
+        <input type="date" name="jobenddate2" id="jobenddate2"><br><br>
+
+        <label for="jobcompany2">Company</label> <br>
+        <input name="jobcompany2" id="jobcompany2"><br><br>
+
+        <label for="jobtitle2">Job title</label> <br>
+        <input type="jobtitle2" id="jobtitle2"><br><br>
+
+        <label for="jobdetails2">Job details</label> <br>
+        <textarea name="jobdetails2" id="jobdetails2" cols="30" rows="5"></textarea><br><br>
+
+        <!-- Third job details -->
+        <label for="jobstartdate3">Third job start date</label> <br>
+        <input type="date" name="jobstartdate3" id="jobstartdate3"><br><br>
+
+        <label for="jobenddate3">Third job end date</label> <br>
+        <input type="date" name="jobenddate3" id="jobenddate3"><br><br>
+
+        <label for="jobcompany3">Company</label> <br>
+        <input name="jobcompany3" id="jobcompany3"><br><br>
+
+        <label for="jobtitle3">Job title</label> <br>
+        <input type="jobtitle3" id="jobtitle3"><br><br>
+
+        <label for="jobdetails3">Job details</label> <br>
+        <textarea name="jobdetails3" id="jobdetails3" cols="30" rows="5"></textarea><br><br>
+
+        <!-- References -->
+        <h2>References</h2>
+        <label for="reference1">Reference 2</label> <br>
+        <input type="text" name="reference1" id="reference1"><br>
+        <label for="referencenumber1">Phone Number</label> <br>
+        <input type="text" name="referencenumber1" id="referencenumber1"><br><br>
+
+        <label for="reference2">Reference 2</label> <br>
+        <input type="text" name="reference2" id="reference2"><br>
+        <label for="referencenumber2">Phone Number</label> <br>
+        <input type="text" name="referencenumber2" id="referencenumber2"><br><br>
+
+        <input type="submit" name="submitResume" class="submitResume" value="Generate Resume" style="font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif; font-size: 24px;">
+    </form>
+    <script src="projectJS.js"></script>
+</body>
+</html>

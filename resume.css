@@ -1,0 +1,153 @@
+/* 
+    Author: Gabriel Henderson
+    Date: 3 December 2020
+    Purpose: Bunch of styling for the resume page
+*/
+
+body{
+    background: white;
+    font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+    border: solid black;
+    border-radius: 3px;
+}
+
+.linkedin{
+    /* float:left; */
+    display:inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right:1rem;
+    font-size: 24px;
+}
+
+.portfolio{
+    /* float:right; */
+    display:inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:1rem;
+    font-size: 24px;
+}
+
+.resumeBanner{
+    background:  rgb(199, 171, 144);
+    text-align: center;
+    padding: .5px;
+    border-bottom: solid black;
+}
+
+.personalinfo{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 24px;
+}
+
+.schoolname{
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.schooldetails{
+    font-size: 24px;
+    font-weight: lighter;
+    margin-left: 5rem;
+    margin-top: 0;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.skills{
+    float:left;
+    margin-left: 3rem;
+}
+
+.techskills{
+    float:right;
+    margin-right: 3rem;
+}
+
+.line{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    font-size: 24px;
+}
+
+.jobs{
+    padding-top: 10rem;
+}
+
+.jobcompanies{
+    margin-bottom:0;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 3rem;
+    margin-top:0;
+}
+.jobtitles{
+    margin-bottom:0;
+    margin-top:0;
+    font-size: 24px;
+    margin-left: 3rem;
+}
+
+.dates{
+    margin-top: 0;
+    font-size: 14px;
+    margin-left: 3rem;
+    margin-bottom:0;
+}
+
+.jobdetails{
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 24px;
+    margin-left: 3rem;
+}
+
+.references{
+    text-align: center;
+}
+
+.refs{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.refnums{
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+p{
+    word-break: break-word;
+}
